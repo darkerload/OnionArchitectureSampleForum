@@ -1,0 +1,22 @@
+﻿<div ng-controller="admin-roles-controller">
+    <div style="">
+        <input type="text" id="rolename" placeholder="Role Name..." class="form-control" style="float:left;" ng-model="roleName" />
+        <button type="button" class="btn btn-primary btn-sm" style="float:left;margin-left: 3px;" ng-click="addRole()">Add</button>
+    </div>
+<br />
+    <div style="margin-top:20px;">
+        <div class="listHead">
+            <div class="listRow">
+                <div class="listCell listHeadCell">Role Name</div>
+                <div class="listCell listHeadCell">Action</div>
+            </div>
+            <div class="listRow" ng-repeat="x in roles">
+                <div class="listCell">{{ x.Name }}</div>
+                <div class="listCell">
+                    <button type="button" class="btn btn-danger btn-xs" ng-click="deleteRole(x.Id)">Delete</button>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+ 

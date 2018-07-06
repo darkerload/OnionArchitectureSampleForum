@@ -1,0 +1,59 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.23107.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "DataLayer", "DataLayer", "{66C3EAA4-8C50-4F66-BE27-27CD341CFDF3}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "BusinessLayer", "BusinessLayer", "{074479AA-DB4D-4F4B-9B5B-1D0CAFF49F4B}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "PresentationLayer", "PresentationLayer", "{817D7507-624C-4FD3-96D4-8060B5E7D095}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ApoForum.Data", "ApoForum.Data\ApoForum.Data.csproj", "{B4BEBF06-149E-43F6-B8F3-58704EB140BA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ApoForum.Domain", "ApoForum.Domain\ApoForum.Domain.csproj", "{E339C0F9-90D5-4958-A4F7-8DC873A08DE7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ApoForum.Web", "ApoForum.Web\ApoForum.Web.csproj", "{56578535-2C40-4FF4-8092-52421DD06A52}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ApoForum.Infrastructure", "ApoForum.Infrastructure\ApoForum.Infrastructure.csproj", "{B9DBCA83-7F33-46DD-BB84-04B851924335}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ApoForum.Common", "ApoForum.Common\ApoForum.Common.csproj", "{11E18FA9-C308-448E-8894-0DC845DA98E3}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B4BEBF06-149E-43F6-B8F3-58704EB140BA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B4BEBF06-149E-43F6-B8F3-58704EB140BA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B4BEBF06-149E-43F6-B8F3-58704EB140BA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B4BEBF06-149E-43F6-B8F3-58704EB140BA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E339C0F9-90D5-4958-A4F7-8DC873A08DE7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E339C0F9-90D5-4958-A4F7-8DC873A08DE7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E339C0F9-90D5-4958-A4F7-8DC873A08DE7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E339C0F9-90D5-4958-A4F7-8DC873A08DE7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{56578535-2C40-4FF4-8092-52421DD06A52}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{56578535-2C40-4FF4-8092-52421DD06A52}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{56578535-2C40-4FF4-8092-52421DD06A52}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{56578535-2C40-4FF4-8092-52421DD06A52}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B9DBCA83-7F33-46DD-BB84-04B851924335}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B9DBCA83-7F33-46DD-BB84-04B851924335}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B9DBCA83-7F33-46DD-BB84-04B851924335}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B9DBCA83-7F33-46DD-BB84-04B851924335}.Release|Any CPU.Build.0 = Release|Any CPU
+		{11E18FA9-C308-448E-8894-0DC845DA98E3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{11E18FA9-C308-448E-8894-0DC845DA98E3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{11E18FA9-C308-448E-8894-0DC845DA98E3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{11E18FA9-C308-448E-8894-0DC845DA98E3}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{B4BEBF06-149E-43F6-B8F3-58704EB140BA} = {66C3EAA4-8C50-4F66-BE27-27CD341CFDF3}
+		{E339C0F9-90D5-4958-A4F7-8DC873A08DE7} = {074479AA-DB4D-4F4B-9B5B-1D0CAFF49F4B}
+		{56578535-2C40-4FF4-8092-52421DD06A52} = {817D7507-624C-4FD3-96D4-8060B5E7D095}
+		{B9DBCA83-7F33-46DD-BB84-04B851924335} = {074479AA-DB4D-4F4B-9B5B-1D0CAFF49F4B}
+		{11E18FA9-C308-448E-8894-0DC845DA98E3} = {074479AA-DB4D-4F4B-9B5B-1D0CAFF49F4B}
+	EndGlobalSection
+EndGlobal
